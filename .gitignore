@@ -1,0 +1,4 @@
+.venv
+extracted-audio
+__pycache__
+.env

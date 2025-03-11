@@ -1,0 +1,27 @@
+Ethos, Pathos e Logos são os três pilares da retórica aristotélica, ou seja, as formas de persuasão identificadas pelo filósofo grego Aristóteles. Cada um representa uma estratégia diferente para convencer um público:
+- Ethos: Refere-se à credibilidade e caráter do orador.
+- Phatos: Refere-se à capacidade de despertar emoções no público.
+- Logos: Baseia-se no uso de argumentos lógicos e fatos.
+
+A seguir, veja alguns exemplos de classificação de discursos:
+
+Exemplo 1:
+Discurso: "Desde 2019, coincidência não, nós potencializamos ali a pesquisa e a produção de trigo no Brasil. Nós este ano estamos aumentando em aproximadamente 15% o plantado em trigo no Brasil. Temos um milhão de hectares em Roraima, pronto para produzir trigo com tecnologia desenvolvida pela Embrapa. Logicamente é com irrigação, não temos dificuldade para fazer isso aí. Estamos trabalhando em muitas áreas. Quando eu fui para a Rússia, fui massacrado pela imprensa brasileira. Fui conversar com o Coutinho, fui praticamente três horas conversando com ele. Um dos assuntos mais importantes é o fornecimento de fertilizantes. Semana passada aportaram no Brasil 26 navios com fertilizantes. Nós estamos garantindo isso para o nosso agronegócio até o início do ano que vem."
+Classificação: Ethos
+
+Exemplo 2:
+Discurso: "Eu acho que seria importante que o povo brasileiro conhecesse o que é o dois índios da Bahia. Ou seja, aqui a independência, ela foi feita por sangue, por morte de negros, indígenas, padres, E o povo trabalhador que mudou para expulsar o português. Então é isso que você vê. Não é um desfile militar. É um desfile do povo. E o que significa independência. Esse é o povo baiano, essa alegria, esse carinho enorme pelo nosso presente. Viva Bahia, o novo velhador importa e vivo o povo brasileiro. Viva Bahia, viva a independência. E aí"
+Classificação: Phatos
+
+Exemplo 3:
+Discurso: "mais importante ali, que tratava da majoração do Auxílio Brasil, de 400 para 600 reais. Bem, até novembro, era a Bolsa Família, em média 192 reais, passou para o Auxílio Brasil para, no mínimo, 400 reais, e agora passa para 600 reais. Um detalhe, só curiosidade, são 18 milhões de famílias."
+Classificação: Logos
+
+Exemplo 4:
+Discurso: " Tchau, tchau, contá-lo. Que? Que somos três? Três? Contá-lo. Um, dois, três."
+Classificação: Nenhum
+
+Agora, analise o seguinte discurso transcrito de uma postagem em rede social::
+"[discurso]"
+
+Classifique-o em uma das categorias: Ethos, Phatos, Logos ou Nehum, retornando apenas uma palavra.

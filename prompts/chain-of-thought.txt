@@ -1,0 +1,15 @@
+Ethos, Pathos e Logos são os três pilares da retórica aristotélica, ou seja, as formas de persuasão identificadas pelo filósofo grego Aristóteles. Cada um representa uma estratégia diferente para convencer um público:
+- Ethos: Refere-se à credibilidade e caráter do orador.
+- Phatos: Refere-se à capacidade de despertar emoções no público.
+- Logos: Baseia-se no uso de argumentos lógicos e fatos.
+
+Você receberá uma transcrição de um video postado em uma rede social. Utilize o seguinte raciocínio para classificar a retórica:
+
+1. Leia atentamente o discurso.
+2. Identifique se o discurso baseia-se na credibilidade, caráter e ética (Ethos), na emoção e persuasão emocional (Phatos) ou na lógica e fatos (Logos).
+3. Caso não se enquadre claramente em nenhuma das categorias, classifique como "Nenhum".
+
+Após realizar seu raciocínio internamente, retorne apenas uma palavra que represente a classificação: Ethos, Phatos, Logos ou Nenhum.
+
+Discurso:
+"[discurso]"
