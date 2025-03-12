@@ -13,11 +13,11 @@ import numpy as np
 
 try:
     connection, cursor = get_db_connection(
-        "db_name", "username", "host", "root_password", 5432
+        "video_transcription", "postgres", "localhost", "28240907", 5432
     )
 
     # Substituir para gerar as métricas para diferentes modelos e estratégia de prompt
-    sql = "SELECT aristotelian_rhetoric, gemini_zs FROM data"
+    sql = "SELECT aristotelian_rhetoric, deepseek_cot FROM data WHERE transcription_word_count >= 100"
     cursor.execute(sql)
     results = cursor.fetchall()
 

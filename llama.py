@@ -1,17 +1,17 @@
-from utils import set_prompt, get_db_connection
+from utils import set_prompt_with_description, get_db_connection
 from dotenv import load_dotenv
 from openai import OpenAI
 import time
 import os
 
-load_dotenv()
+load_dotenv(override=True)
 
 try:
     connection, cursor = get_db_connection(
-        "db_name", "username", "host", "root_password", 5432
+        "video_transcription", "postgres", "localhost", "28240907", 5432
     )
     # Altere de acordo com a estratégia de prompt
-    cursor.execute("SELECT id, transcription, llama_zs FROM data")
+    cursor.execute("SELECT id, transcription, post_description, llama_fs FROM data2")
     rows = cursor.fetchall()
     connection.commit()
 
@@ -21,9 +21,9 @@ try:
     )
 
     for row in rows:
-        if row[2] == None:
+        if row[3] == None:
             # Altere a entratégia de prompt utilizada
-            prompt = set_prompt("./prompts/zero-shot.txt", row[5])
+            prompt = set_prompt_with_description("./prompts/few-shot.txt", row[1], row[2])
 
             chat_completion = client.chat.completions.create(
                 messages=[
@@ -37,7 +37,7 @@ try:
 
             # Altere o campo de atualização no DB de acordo com o modelo (linha 27) e prompt (linha 36) utilizado
             cursor.execute(
-                "UPDATE data SET llama_zs = %s WHERE id = %s",
+                "UPDATE data2 SET llama_fs = %s WHERE id = %s",
                 (chat_completion.choices[0].message.content.replace("\n", ""), row[0]),
             )
             connection.commit()

@@ -3,9 +3,9 @@ Ethos, Pathos e Logos são os três pilares da retórica aristotélica, ou seja,
 - Phatos: Refere-se à capacidade de despertar emoções no público.
 - Logos: Baseia-se no uso de argumentos lógicos e fatos.
 
-Analise o seguinte discurso transcrito de uma postagem em rede social:
+Analise o seguinte discurso e legenda do video transcrito de uma postagem em rede social:
 "[discurso]"
-Descrição da postagem: "[descrição]"
+legenda do vídeo: "[descrição]"
 
 Classifique o discurso quanto a retórica artistotélica em uma das categorias: ethos, phatos, logos ou nenhum.
 Retorne apenas uma palavra que indique a categoria identificada.
