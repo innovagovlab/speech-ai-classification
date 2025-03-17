@@ -11,7 +11,7 @@ try:
         "video_transcription", "postgres", "localhost", "28240907", 5432
     )
     # Altere de acordo com a estratégia de prompt
-    cursor.execute("SELECT id, transcription, post_description, llama_fs FROM data2")
+    cursor.execute("SELECT id, transcription, post_description, deepseek_zs FROM data2")
     rows = cursor.fetchall()
     connection.commit()
 
@@ -22,8 +22,9 @@ try:
 
     for row in rows:
         if row[3] == None:
+            print(row)
             # Altere a entratégia de prompt utilizada
-            prompt = set_prompt_with_description("./prompts/few-shot.txt", row[1], row[2])
+            prompt = set_prompt_with_description("./prompts/chain-of-thought.txt", row[1], row[2])
 
             chat_completion = client.chat.completions.create(
                 messages=[
@@ -32,12 +33,12 @@ try:
                         "content": prompt,
                     }
                 ],
-                model="meta-llama/llama-3.3-70b-instruct:free",
+                model="deepseek/deepseek-r1:free",
             )
 
             # Altere o campo de atualização no DB de acordo com o modelo (linha 27) e prompt (linha 36) utilizado
             cursor.execute(
-                "UPDATE data2 SET llama_fs = %s WHERE id = %s",
+                "UPDATE data2 SET deepseek_zs = %s WHERE id = %s",
                 (chat_completion.choices[0].message.content.replace("\n", ""), row[0]),
             )
             connection.commit()

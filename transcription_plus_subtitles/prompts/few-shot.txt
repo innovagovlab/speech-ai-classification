@@ -25,4 +25,4 @@ Agora, analise o seguinte discurso e legenda do video transcrito de uma postagem
 "[discurso]"
 legenda do vídeo: "[descrição]"
 
-Classifique-o em uma das categorias: ethos, phatos, logos ou nenhum, retornando apenas uma palavra.
+Classifique-o em uma das categorias: ethos, phatos, logos ou nenhum, retornando apenas uma palavra. Responda APENAS uma palavra
