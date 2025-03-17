@@ -21,7 +21,8 @@ Exemplo 4:
 Discurso: " Tchau, tchau, contá-lo. Que? Que somos três? Três? Contá-lo. Um, dois, três."
 Classificação: Nenhum
 
-Agora, analise o seguinte discurso transcrito de uma postagem em rede social::
+Agora, analise o seguinte discurso e legenda do video transcrito de uma postagem em rede social:
 "[discurso]"
+legenda do vídeo: "[descrição]"
 
-Classifique-o em uma das categorias: Ethos, Phatos, Logos ou Nehum, retornando apenas uma palavra.
+Classifique-o em uma das categorias: ethos, phatos, logos ou nenhum, retornando apenas uma palavra. Responda APENAS uma palavra

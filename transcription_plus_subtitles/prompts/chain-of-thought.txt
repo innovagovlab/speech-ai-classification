@@ -5,11 +5,12 @@ Ethos, Pathos e Logos são os três pilares da retórica aristotélica, ou seja,
 
 Você receberá uma transcrição de um video postado em uma rede social. Utilize o seguinte raciocínio para classificar a retórica:
 
-1. Leia atentamente o discurso.
-2. Identifique se o discurso baseia-se na credibilidade, caráter e ética (Ethos), na emoção e persuasão emocional (Phatos) ou na lógica e fatos (Logos).
+1. Leia atentamente o discurso e a legenda.
+2. Identifique se o discurso + legenda baseia-se na credibilidade, caráter e ética (Ethos), na emoção e persuasão emocional (Phatos) ou na lógica e fatos (Logos).
 3. Caso não se enquadre claramente em nenhuma das categorias, classifique como "Nenhum".
-
-Após realizar seu raciocínio internamente, retorne apenas uma palavra que represente a classificação: Ethos, Phatos, Logos ou Nenhum.
 
 Discurso:
 "[discurso]"
+legenda do vídeo: "[descrição]"
+
+Após realizar seu raciocínio internamente, retorne apenas uma palavra que represente a classificação: ethos, phatos, logos ou nenhum
