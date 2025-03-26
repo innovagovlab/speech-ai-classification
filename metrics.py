@@ -24,14 +24,14 @@ def get_metrics(
         for strategy in prompt_strategy:
             sql = ""
             if split:
-                sql = f"SELECT aristotelian_rhetoric, {model_prefix}_{strategy} FROM {table_name} WHERE transcription_word_count >= {split_word_count}"
+                sql = f"SELECT tone, tone_{model_prefix}_{strategy} FROM {table_name} WHERE transcription_word_count >= {split_word_count}"
             else:
-                sql = f"SELECT aristotelian_rhetoric, {model_prefix}_{strategy} FROM {table_name} WHERE profile = 'bolsonaromessiasjair'"
+                sql = f"SELECT tone, tone_{model_prefix}_{strategy} FROM {table_name} WHERE"
             cursor.execute(sql)
             rows = cursor.fetchall()
 
-            true = [row[0].strip().lower() for row in rows]
-            prediction = [row[1].strip().lower() for row in rows]
+            true = [row[0].lower() for row in rows]
+            prediction = [row[1].lower() for row in rows]
 
             accuracy = accuracy_score(true, prediction)
             precision = precision_score(true, prediction, average="macro")

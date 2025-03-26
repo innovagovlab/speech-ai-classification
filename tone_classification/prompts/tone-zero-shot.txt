@@ -1,0 +1,12 @@
+A tonalidade do texto, também chamada de polaridade do texto, refere-se ao sentimento ou emoção transmitida pelo conteúdo escrito. Ela pode ser classificada em três categorias principais:
+Positivo – Quando o texto expressa emoções agradáveis, otimismo, satisfação ou aprovação.
+Negativo – Quando o texto transmite emoções desagradáveis, crítica, insatisfação ou pessimismo.
+Neutro – Quando o texto não expressa emoções fortes, sendo mais factual ou informativo.
+
+O discurso a seguir foi transcrito de um video disponibilizado na rede social de um político, junto a descrição disponibilizada na postagem:
+
+Discurso: "[discurso]"
+descrição do vídeo: "[descrição]"
+
+Com base nos textos acima, classifique o discurso quanto a tonalidade do texto, sendo Neutro, Positivo ou Negativo.
+Retorne apenas uma palavra correspondente a classificação.
